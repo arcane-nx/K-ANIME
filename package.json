@@ -1,0 +1,29 @@
+{
+  "name": "@arcane_nx/kanime",
+  "version": "2.0.3",
+  "description": "A high-performance, bulk anime downloader CLI with smart resume and parallel downloads.",
+  "main": "K-ANIME.js",
+  "bin": {
+    "kanime": "K-ANIME.js"
+  },
+  "files": [
+    "K-ANIME.js",
+    "utils.js"
+  ],
+  "scripts": {
+    "start": "node K-ANIME.js"
+  },
+  "keywords": [],
+  "author": "Arcane",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "cli-progress": "^3.12.0",
+    "figlet": "^1.7.0",
+    "gradient-string": "^2.0.2",
+    "inquirer": "^8.2.6",
+    "inquirer-autocomplete-prompt": "^2.0.0",
+    "ora": "^5.4.1"
+  }
+}
